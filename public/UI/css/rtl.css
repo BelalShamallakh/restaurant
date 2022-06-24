@@ -1,0 +1,77 @@
+@font-face {
+    font-family: DroidKufi;
+    src: url(../webfonts/DroidKufi-Regular.ttf);
+}
+
+body{
+    font-family: 'DroidKufi' , sans-serif;
+    text-align: right;
+
+}
+
+.slider-area .content-slider-area h1 {
+    line-height: 1.7;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px 0 0;
+}
+
+.menu-area .content-menu{
+    padding-right: 50px;
+}
+
+.about-area .content-about{
+    padding-left: 30px;
+}
+
+.breadcrumb-content li {
+    margin-left: 30px;
+}
+
+.breadcrumb-content li:last-of-type{
+    margin-left: 0;
+}
+
+.breadcrumb-content li:not(last-of-type) ::before{
+    left: -22px;
+}
+
+.single-menu .menu-content h4 {
+    float: right;
+    text-align: right;
+    padding-left: 10px;
+
+}
+
+.single-menu .menu-content  span {
+    float: left;
+    padding-right: 10px;
+}
+
+.single-menu .menu-content .dotted-lines {
+    right: 0;
+}
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem auto -1rem -1rem ;
+}
+
+.modal-body p{
+    text-align: right;
+}
+
+@media (max-width: 991.98px) {
+    .navbar  .navbar-toggler{
+        left: 0;
+    }
+    .navbar .navbar-toggler .navbar-toggler-icon::before, .navbar .navbar-toggler .navbar-toggler-icon::after {
+        right: 0;
+    }
+    .navbar-inner{
+        left: -100%;
+    }
+    .navbar.active .navbar-inner {
+        left: 0;
+    }
+}
